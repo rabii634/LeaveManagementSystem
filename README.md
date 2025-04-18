@@ -7,11 +7,11 @@
 - Swagger for API testing
 - Dockerfile
 ## Run Locally (Without Docker)
- dotnet restore
- dotnet ef database update
- dotnet run
- visit : http://localhost:5080/swagger
+- dotnet restore
+- dotnet ef database update
+- dotnet run
+- visit : http://localhost:5080/swagger
 ## Run with docker 
- docker build -t leave-api .
- docker run -d -p 5050:8080 -e ASPNETCORE_ENVIRONMENT=Development leave-api
- visit : http://localhost:5050/swagger
+- docker build -t leave-api .
+- docker run -d -p 5050:8080 -e ASPNETCORE_ENVIRONMENT=Development leave-api
+- visit : http://localhost:5050/swagger
